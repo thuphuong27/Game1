@@ -1,0 +1,76 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &1418050397652891626
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1418050397652891624}
+  - component: {fileID: 1418050397652891625}
+  - component: {fileID: 1418050397652891631}
+  m_Layer: 0
+  m_Name: Game Manager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1418050397652891624
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1418050397652891626}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 436.63278, y: 427.97736, z: -10.862956}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1418050397652891625
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1418050397652891626}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 391ece24da8a66a4396517c1384d66e9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  amtOfCards: 3
+  plantCardSO:
+  - {fileID: 11400000, guid: 6e517a3bc9489af4295111a94b29c74a, type: 2}
+  - {fileID: 11400000, guid: f15bba1c5088d0e41897ef68f2cefda0, type: 2}
+  - {fileID: 11400000, guid: 9c6045eb0a580144fa4dc6f50e09c46a, type: 2}
+  - {fileID: 11400000, guid: 3f32488464de8df47a21ce085d964c21, type: 2}
+  cardPrefab: {fileID: 5205099440205876245, guid: 47dc2ce00c343724ea6d42d5a0939316, type: 3}
+  cardHolderTransform: {fileID: 0}
+  plantCards: []
+  cooldown: 0
+  cost: 0
+  plantIcon: {fileID: 0}
+--- !u!114 &1418050397652891631
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1418050397652891626}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f70e85271add6db49b06e0830c19696a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sunDisp: {fileID: 0}
+  startingSunAmnt: 1000
+  SunAmount: 0
+  decorativeZombies: {fileID: 0}
+  cardSlotsHolder: {fileID: 0}
+  zombieManager: {fileID: 0}

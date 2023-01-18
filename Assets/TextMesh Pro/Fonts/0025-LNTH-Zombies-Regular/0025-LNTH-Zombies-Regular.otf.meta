@@ -1,0 +1,22 @@
+fileFormatVersion: 2
+guid: d6dfaac9dc8c2ae4d820aa6d07a3275d
+TrueTypeFontImporter:
+  externalObjects: {}
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontNames:
+  - LNTH-Zombies
+  fallbackFontReferences:
+  - {fileID: 12800000, guid: 72ac669221a51b84ea2ee4da6dc2a0b1, type: 3}
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  useLegacyBoundsCalculation: 0
+  shouldRoundAdvanceValue: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
